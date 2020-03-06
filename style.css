@@ -1,0 +1,32 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    margin: 30px auto;
+    width: 1080px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header img {
+    float: left;
+    padding-top: 15px;
+    padding-left: 60px;
+}
+
+div:first-child {
+    margin: auto;
+    width: 960px;
+    margin-top: 30px;
+}
+
+section {
+    margin: 0 auto;
+    width: 960px;
+}

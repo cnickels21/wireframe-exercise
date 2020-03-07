@@ -3,6 +3,10 @@ body {
     width: 1080px;
 }
 
+img {
+    outline: none;
+}
+
 header {
     background-color: rgba(0, 0, 0, 0.5);
     height: 100px;
@@ -29,10 +33,6 @@ ul li {
     color: lightgray;
 }
 
-/* div {
-    margin-bottom: 30px;
-} */
-
 div:first-child {
     margin: auto;
     width: 960px;
@@ -41,5 +41,25 @@ div:first-child {
 
 section {
     margin: 30px auto;
-    width: 960px;
+    width: 1080px;
+}
+
+#first-placeholder {
+    margin-left: 60px;
+    padding-right: 30px;
+}
+
+#last-placeholder {
+    padding-left: 30px;
+}
+
+#bottom-placeholder {
+    margin-left: 60px;
+}
+
+article {
+    float: right;
+    width: 450px;
+    padding-right: 50px;
+    padding-left: 30px;
 }

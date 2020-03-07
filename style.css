@@ -91,3 +91,11 @@ button:hover {
     transition-delay: 350ms;
     background-color: gray;
 }
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100px;
+    margin: 0 auto;
+    width: 100%;
+    margin: 30px 0px;
+}
